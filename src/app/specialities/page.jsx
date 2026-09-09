@@ -33,6 +33,7 @@ const specialities = [
   { icon: 'ph ph-activity', name: 'Vascular Surgery' },
   { icon: 'ph ph-siren', name: 'Critical Care Medicine' },
   { icon: 'ph ph-ambulance', name: 'Emergency Medicine' },
+  { icon: 'ph ph-tooth', name: 'Dentistry' },
 ]
 
 export default function Specialities() {

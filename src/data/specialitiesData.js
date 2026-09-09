@@ -25,18 +25,16 @@ export const specialitiesData = {
     whenToConsult: 'Patients should consult a General Medicine specialist when they experience persistent or unexplained symptoms such as fever, cough, fatigue, or body pain. Other warning signs include uncontrolled blood pressure or sugar levels, chest discomfort, breathing difficulty, dizziness, or sudden weight changes. Digestive problems like long-lasting acidity, abdominal pain, or loss of appetite also require medical attention. It is important to seek timely consultation for chronic conditions like diabetes, hypertension, or thyroid disorders to prevent complications.',
     doctors: [
       {
-        name: 'Dr. Veeresh Godi',
-        qualification: 'MBBS, MD General Medicine',
-        experience: '3 years',
-        img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/Dr_veeresh_godi_awqtsd.jpg',
+        name: 'Dr. Mohammad Himayatullah Khan',
+        qualification: 'MBBS, MD (Internal Medicine)',
+        designation: 'Senior General Physician & Cardiologist',
+        experience: '33 years',
+        img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/v1788947226/3fb00ddd-0ce0-4c2e-a279-f27ec75dcda4_zhxch8.jpg',
         expertise: [
-          'Management of hypertension and diabetes',
-          'Thyroid disorders',
-          'Cardiac-related medical conditions',
-          'Infectious diseases and critical care management',
-          'Acute and chronic illness management',
+          'General Medicine',
+          'Cardiology',
+          'Internal Medicine',
         ],
-        note: 'Worked in reputed hospitals in Bengaluru with strong exposure to handling critical cases independently and managing a wide range of medical emergencies.',
       },
     ],
     faqs: [
@@ -76,23 +74,9 @@ export const specialitiesData = {
     whenToConsult: 'When there is pain in any part of the musculoskeletal system — bones, joints, tendons, and ligaments — caused by acute or chronic injury or degenerative conditions affecting your daily life and occupation. Also consult for congenital, developmental or acquired deformities, and injuries caused by road traffic accidents, falls, or any trauma.',
     doctors: [
       {
-        name: 'Dr. Mahalingam',
-        qualification: 'MBBS, MS, DNB, FMISS',
-        experience: '5 years',
-        img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/Dr_Mahaligam_jppgtd.jpg',
-        expertise: [
-          'Fracture fixations',
-          'Arthroplasty (Joint Replacement)',
-          'Minimally invasive spine surgery',
-          'Endoscopic spine surgery',
-          'Root blocks',
-        ],
-        note: 'Worked as Senior Resident for 1.5 years in reputed government medical college, corporate and multi-specialty hospitals in Bangalore and Mumbai. Fellowship in minimally invasive and endoscopic spine surgery under a pioneer of MIS spine surgery in Mumbai.',
-      },
-      {
-        name: 'Dr. Syed Zafar',
-        qualification: 'MBBS, MS Orthopaedics, FIASM (Fellowship in Arthroscopy & Sports Medicine), FIJR (Fellowship in Joint Replacement), FIFA Diploma in Football Medicine',
-        experience: 'Orthopedic Surgeon with expertise in Sports Medicine, Arthroscopy, Trauma, and Joint Replacement',
+        name: 'Dr. Syed Zafar-Ul-Islam',
+        qualification: 'MBBS, MS Ortho, FIASM, FIJR, FIFA Diploma in Football Medicine',
+        designation: 'Orthopedic Surgeon',
         img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/v1788179694/Dr_Zafar_obmvfd.jpg',
         note: 'On-call consultant',
         expertise: [

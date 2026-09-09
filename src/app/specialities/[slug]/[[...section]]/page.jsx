@@ -165,9 +165,12 @@ function SpecialityDetailContent() {
           <section className="py-8 md:py-14 max-w-[1920px] mx-auto px-4 lg:px-16">
             <h2 className="text-2xl font-extrabold mb-10" style={{ color: '#1a3a6b' }}>{t('sd_doctors_h')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {data.doctors.map(({ name, qualification, experience, img, expertise, note }) => (
+              {data.doctors.map(({ name, qualification, designation, experience, img, expertise, note }) => (
                 <div key={name} className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="h-56 bg-gray-100 overflow-hidden flex items-center justify-center">
+                  {/* Doctor photos are chest-up headshots (portrait-ish, roughly 3:4), so the
+                      frame matches that ratio instead of a fixed short landscape box — a fixed
+                      h-56 crop was scaling wide photos up so much it cut off the top of the head. */}
+                  <div className="aspect-[3/4] bg-gray-100 overflow-hidden flex items-center justify-center">
                     {img
                       ? <img src={img} className="w-full h-full object-cover object-top hover:scale-110 transition-transform duration-500" alt={name} loading="lazy" />
                       : <div className="flex flex-col items-center justify-center gap-2">
@@ -181,9 +184,14 @@ function SpecialityDetailContent() {
                   <div className="p-6">
                     <h3 className="text-base font-bold mb-0.5" style={{ color: '#1a3a6b' }}>{name}</h3>
                     <p className="text-xs md:text-[11px] text-gray-400 font-semibold mb-1">{qualification}</p>
-                    <p className="text-xs md:text-[11px] text-gray-500 mb-4">
-                      <i className="ph ph-clock mr-1"></i>{experience} {t('sd_experience')}
-                    </p>
+                    {designation && (
+                      <p className={`text-xs md:text-[11px] font-semibold ${experience ? 'mb-1' : 'mb-4'}`} style={{ color: '#1a3a6b' }}>{designation}</p>
+                    )}
+                    {experience && (
+                      <p className="text-xs md:text-[11px] text-gray-500 mb-4">
+                        <i className="ph ph-clock mr-1"></i>{experience} {t('sd_experience')}
+                      </p>
+                    )}
                     <div className="mb-4">
                       <p className="text-[11px] font-bold uppercase tracking-wider text-gray-400 mb-2">{t('sd_expertise_h')}</p>
                       <ul className="space-y-1.5">

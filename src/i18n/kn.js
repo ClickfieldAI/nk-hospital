@@ -118,6 +118,7 @@ export default {
     'Radiology': 'ರೇಡಿಯಾಲಜಿ',
     'Pathology': 'ರೋಗಶಾಸ್ತ್ರ',
     'Critical Care': 'ಗಂಭೀರ ಆರೈಕೆ',
+    'Dentistry': 'ದಂತ ವೈದ್ಯಶಾಸ್ತ್ರ',
   },
 
   // Find Doctor
