@@ -11,6 +11,43 @@
 
 export const blogPosts = [
   {
+    slug: 'kidney-stones-early-warning-signs',
+    title: 'Kidney Stones: Early Warning Signs You Shouldn’t Ignore',
+    category: 'Urology',
+    date: 'September 30, 2026',
+    isoDate: '2026-09-30',
+    readTime: '4 min read',
+    img: 'https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?q=80&w=1200&auto=format&fit=crop',
+    excerpt: 'Kidney stones can start without any clear warning signs. Learn the common symptoms, prevention tips, and when it is time to see a urologist.',
+    metaTitle: 'Kidney Stones: Early Warning Signs You Shouldn’t Ignore',
+    metaDescription: 'Know the early warning signs of kidney stones, from sudden back or side pain to blood in urine and fever, and when to consult a urologist.',
+    content: [
+      { type: 'p', text: 'Kidney stones can start without any clear warning signs. Sometimes, a small stone may stay in the kidney without causing noticeable symptoms. But when the stone starts moving through the urinary tract, it can cause pain and other symptoms that are difficult to ignore. Knowing these early signs can help you understand when it is time to consult a doctor.' },
+
+      { type: 'h2', text: 'Common Signs of Kidney Stones' },
+      { type: 'steps', items: [
+        { title: 'Sudden Pain in the Back or Side', text: 'A sudden pain in the back or side is one of the common signs of a kidney stone. The pain can sometimes move towards the lower abdomen or groin area as the stone travels through the urinary tract. In some cases, it can become quite severe. If you have sudden pain without a clear reason, especially if it keeps returning, it is better to get it checked.' },
+        { title: 'Pain or Burning While Urinating', text: 'A kidney stone can cause discomfort when you pass urine. You may notice a burning sensation or pain while urinating. You may also feel the need to use the bathroom more often. These symptoms can also be due to urine infection, however, a proper diagnosis can help identify the actual cause.' },
+        { title: 'Blood in the Urine', text: "Sometimes, a kidney stone can irritate the urinary tract and cause blood to appear in the urine. You may notice a change in the urine color to pink, red, or brown. Even if the amount of blood visible is small, do not ignore it. Blood in the urine can be due to several reasons, so it's important to consult a doctor. Kidney stone pain can sometimes be accompanied by nausea or vomiting, which is more likely to happen when the pain gets severe. If you have frequent vomiting or cannot keep fluids down, do not wait for the symptoms to pass on their own — get medical advice immediately to avoid dehydration and find the root cause of the problem." },
+        { title: 'Changes in Urine', text: 'Have you noticed that the urine looks cloudy or has an unusual smell? This can sometimes be due to urinary problems, including infections. If these changes occur along with pain, burning while urinating, or other symptoms, it is better to get evaluated.' },
+        { title: 'Fever and Chills', text: 'Fever and chills along with the other underlying symptoms need attention. If you have fever, chills, severe pain, or difficulty passing urine, seek medical care promptly. A blocked urinary tract along with an infection can require urgent treatment.' },
+      ] },
+
+      { type: 'h2', text: 'Simple Tips to Lower the Risk of Kidney Stones' },
+      { type: 'p', text: "A few simple habits can support kidney stone prevention. However, the right prevention plan depends on the severity of the problem and an individual's health." },
+      { type: 'ul', items: [
+        'Drink enough water: Staying well hydrated helps dilute the urine and can reduce the concentration of minerals that form stones.',
+        'Reduce excess salt intake: A high-sodium diet can increase the risk of kidney stones.',
+        'Pay attention to repeated symptoms: If similar pain or urinary problems keep coming back, talk to a doctor.',
+        'Follow personalised advice: If you have had a kidney stone in the past, your doctor may recommend specific changes based on the type of stone.',
+      ] },
+
+      { type: 'h2', text: 'When Should You See a Urologist?' },
+      { type: 'p', text: ['Not every backache or change in urination means a kidney stone, but persistent or unusual symptoms deserve attention. If there is ongoing pain, discomfort while urinating, blood in the urine, repeated vomiting, fever, or chills, consider ', { text: 'consulting a urologist', href: '/find-doctor' }, '. Early evaluation can help identify the cause and guide the right treatment before the symptoms interfere with your daily life.'] },
+      { type: 'p', text: 'Kidney stone symptoms can sometimes be easy to overlook, but paying attention to the symptoms can help you take timely action.' },
+    ],
+  },
+  {
     slug: 'routine-health-checkups-every-adult-should-do',
     title: 'Routine Health Checkups Every Adult Should Do',
     category: 'Preventive Health',

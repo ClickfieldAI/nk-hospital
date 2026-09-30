@@ -185,6 +185,7 @@ function AboutSection() {
             <div className="space-y-4 text-[15px] text-gray-600 leading-relaxed mb-8">
               <p>{t('home_about_p1')}</p>
               <p>{t('home_about_p2')}</p>
+              <p>{t('home_about_p3')}</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -247,6 +248,7 @@ function EmergencySection() {
             </h2>
             <div className="space-y-4 text-sm text-blue-100/80 leading-relaxed mb-8">
               <p>{t('home_em_desc')}</p>
+              <p>{t('home_em_desc2')}</p>
             </div>
 
             <div className="grid grid-cols-2 gap-3 mb-8">
@@ -295,8 +297,11 @@ function WhyChooseUs() {
             {t('home_why_eyebrow')}
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5">{t('home_why_heading')}</h2>
-          <p className="text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed mb-3">
             {t('home_why_sub')}
+          </p>
+          <p className="text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed">
+            {t('home_why_sub2')}
           </p>
         </div>
 

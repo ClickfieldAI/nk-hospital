@@ -37,8 +37,9 @@ export default {
   home_about_eyebrow: 'ABOUT NK HOSPITAL',
   home_about_heading: 'Advanced Healthcare',
   home_about_subheading: 'Modern Infrastructure. Integrated Care.',
-  home_about_p1: 'NK Hospital combines advanced medical infrastructure, modern clinical systems, and multidisciplinary expertise to deliver comprehensive healthcare across specialties.',
-  home_about_p2: 'Our integrated approach enables seamless coordination between departments, helping ensure better outcomes and a higher standard of care for patients across North Karnataka.',
+  home_about_p1: 'NK Hospital combines advanced medical infrastructure, modern clinical systems, and multidisciplinary expertise to deliver comprehensive healthcare across specialties. Our integrated approach enables seamless coordination between departments, helping ensure better outcomes and a higher standard of care for patients.',
+  home_about_p2: 'With experienced doctors, specialised medical services, and modern healthcare facilities, NK Hospital stands out to be the leading multi-specialty hospital in Kalaburagi by providing comprehensive care for a wide range of medical needs.',
+  home_about_p3: 'Our patient-centred approach brings together expert consultation, accurate diagnosis, advanced treatment, and coordinated follow-up care at affordable costs. By combining clinical expertise with modern healthcare solutions, we strive to provide trusted and accessible medical care for individuals and families across North Karnataka region.',
   home_about_chip1: 'Advanced Surgical Infrastructure',
   home_about_chip2: 'Expert Multidisciplinary Team',
   home_about_chip3: 'Patient-Centric Care',
@@ -49,6 +50,7 @@ export default {
   home_em_available: 'Always Available',
   home_em_heading: '24/7 Emergency & Critical Care Services',
   home_em_desc: 'Medical emergencies demand immediate attention, precision, and coordinated care. At NK Hospital, we provide round-the-clock emergency and critical care supported by experienced clinicians, intensive care facilities, and rapid response protocols.',
+  home_em_desc2: 'We have one of the best emergency and critical care services in Kalaburagi to provide prompt assessment and timely intervention for patients with urgent medical needs. Specialised emergency services support rapid evaluation, patient stabilisation, and appropriate care based on the severity of each condition. With continuous medical support and coordinated clinical services, we aim to provide dependable care when every moment matters.',
   home_em_trauma: 'Trauma Management', home_em_medical: 'Medical Emergencies',
   home_em_surgical: 'Surgical Emergencies', home_em_icu: 'ICU & Critical Care',
   home_em_helpline: 'Emergency Helpline', home_em_contact: 'Contact Us',
@@ -56,7 +58,8 @@ export default {
   // Home: Why Choose Us
   home_why_eyebrow: 'WHY CHOOSE US',
   home_why_heading: 'Excellence Across Every Aspect of Care',
-  home_why_sub: 'NK Hospital is built to deliver seamless, accessible, and high-quality healthcare experiences across medical and surgical specialties — with a strong focus on clinical precision, emergency responsiveness, and patient safety.',
+  home_why_sub: 'NK Hospital is built to deliver seamless, accessible, and high-quality healthcare experiences across medical and surgical specialties with a strong focus on clinical precision, emergency responsiveness, and patient safety.',
+  home_why_sub2: 'Our approach brings together experienced healthcare professionals, modern diagnostics, and coordinated treatment pathways to support patients at every stage of care. From routine doctor consultations to complex procedures, our comprehensive healthcare services focus on patient comfort, safety, and continuity of care.',
   home_why_beds_label: 'Beds',
   home_why_beds_desc: 'Comprehensive inpatient and critical care infrastructure',
   home_why_spec_label: 'Specialties',
@@ -77,8 +80,12 @@ export default {
 
   // Specialities page
   spec_page_heading: 'Our Specialties',
-  spec_page_domains: '30+ Health Domains',
-  spec_page_sub: 'NK Hospital provides comprehensive care across a wide spectrum of medical and surgical specialties. Click on a specialty to learn more.',
+  spec_page_domains: '30+ HealthCare Specialties',
+  spec_page_sub: 'NK Hospital is a trusted multispeciality hospital in Kalaburagi, offering comprehensive care across a wide spectrum of medical and surgical specialties. As a leading multi speciality hospital in Kalyan Karnataka, NK Hospital is committed to providing accessible, high-quality healthcare for patients across Gulbarga and neighbouring districts. From preventive check-ups to complex surgical procedures, our multidisciplinary team ensures every patient receives coordinated, evidence-based care backed by experienced specialists.',
+  spec_page_em_heading: '24/7 Emergency & Critical Care Services in Kalaburagi',
+  spec_page_em_p1: 'At NK Hospital, our aim is to provide round-the-clock emergency and critical care services backed by experienced clinicians, a fully equipped ICU, and rapid response protocols. Our expert team of doctors in Kalaburagi specialize in gastroenterology, cardiology, orthopaedics, nephrology, urology, gynecology, and critical care, combining advanced medical technology with a patient-centric approach to diagnosis and treatment.',
+  spec_page_em_p2: 'Medical emergencies demand immediate attention, precision, and coordinated care. Recognized as a trusted emergency care hospital in Kalaburagi, our team is trained to manage trauma, cardiac, and respiratory emergencies with speed and precision, ensuring every patient receives timely, life-saving treatment when it matters most.',
+  spec_page_faq_heading: 'Frequently Asked Question On Our Medical Specialties',
   spec_page_view_details: 'View Details →',
 
   // Specialty name translations (used in Specialities + FindDoctor pages)

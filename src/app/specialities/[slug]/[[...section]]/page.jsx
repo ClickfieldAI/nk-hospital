@@ -105,7 +105,7 @@ function SpecialityDetailContent() {
         {tab === 'Overview' && (
           <section className="py-8 md:py-14 max-w-[1920px] mx-auto px-4 lg:px-16">
             <div className="max-w-4xl">
-              <h2 className="text-2xl font-extrabold mb-6" style={{ color: '#1a3a6b' }}>{t('sd_overview_h')}</h2>
+              <h2 className="text-2xl font-extrabold mb-6" style={{ color: '#1a3a6b' }}>{data.headings?.overview || t('sd_overview_h')}</h2>
               <div className="space-y-4 text-[15px] text-gray-600 leading-relaxed mb-10">
                 {data.overview.map((p, i) => <p key={i}>{p}</p>)}
               </div>
@@ -129,7 +129,10 @@ function SpecialityDetailContent() {
         {tab === 'Conditions' && (
           <section className="py-8 md:py-14 max-w-[1920px] mx-auto px-4 lg:px-16">
             <div className="max-w-4xl">
-              <h2 className="text-2xl font-extrabold mb-8" style={{ color: '#1a3a6b' }}>{t('sd_conditions_h')}</h2>
+              <h2 className="text-2xl font-extrabold mb-4" style={{ color: '#1a3a6b' }}>{data.headings?.conditions || t('sd_conditions_h')}</h2>
+              {data.conditionsIntro && (
+                <p className="text-[15px] text-gray-600 leading-relaxed mb-8">{data.conditionsIntro}</p>
+              )}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {data.conditions.map((c, i) => (
                   <div key={i} className="flex items-start gap-3 bg-white border border-gray-100 rounded-xl px-5 py-4 shadow-sm">
@@ -146,15 +149,15 @@ function SpecialityDetailContent() {
           <section className="py-8 md:py-14 max-w-[1920px] mx-auto px-4 lg:px-16">
             <div className="max-w-4xl space-y-10">
               <div>
-                <h2 className="text-2xl font-extrabold mb-5" style={{ color: '#1a3a6b' }}>{t('sd_treatments_h')}</h2>
+                <h2 className="text-2xl font-extrabold mb-5" style={{ color: '#1a3a6b' }}>{data.headings?.treatments || t('sd_treatments_h')}</h2>
                 <p className="text-[15px] text-gray-600 leading-relaxed">{data.treatments}</p>
               </div>
               <div className="bg-slate-50 rounded-2xl p-5 md:p-8 border border-gray-100">
-                <h3 className="text-lg font-bold mb-4" style={{ color: '#1a3a6b' }}>{t('sd_approach_h')}</h3>
+                <h3 className="text-lg font-bold mb-4" style={{ color: '#1a3a6b' }}>{data.headings?.approach || t('sd_approach_h')}</h3>
                 <p className="text-[14px] text-gray-600 leading-relaxed">{data.approach}</p>
               </div>
               <div className="bg-blue-50 rounded-2xl p-5 md:p-8 border border-blue-100">
-                <h3 className="text-lg font-bold mb-4" style={{ color: '#1a3a6b' }}>{t('sd_when_h')}</h3>
+                <h3 className="text-lg font-bold mb-4" style={{ color: '#1a3a6b' }}>{data.headings?.when || t('sd_when_h')}</h3>
                 <p className="text-[14px] text-gray-700 leading-relaxed">{data.whenToConsult}</p>
               </div>
             </div>
@@ -163,7 +166,10 @@ function SpecialityDetailContent() {
 
         {tab === 'Doctors' && (
           <section className="py-8 md:py-14 max-w-[1920px] mx-auto px-4 lg:px-16">
-            <h2 className="text-2xl font-extrabold mb-10" style={{ color: '#1a3a6b' }}>{t('sd_doctors_h')}</h2>
+            <h2 className="text-2xl font-extrabold mb-4" style={{ color: '#1a3a6b' }}>{data.headings?.doctors || t('sd_doctors_h')}</h2>
+            {data.doctorsIntro && (
+              <p className="text-[15px] text-gray-600 leading-relaxed mb-10 max-w-4xl">{data.doctorsIntro}</p>
+            )}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {data.doctors.map(({ name, qualification, designation, experience, img, expertise, note }) => (
                 <div key={name} className="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">

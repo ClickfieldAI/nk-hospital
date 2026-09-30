@@ -36,6 +36,37 @@ const specialities = [
   { icon: 'ph ph-tooth', name: 'Dentistry' },
 ]
 
+const specialtiesFaqs = [
+  {
+    q: 'What medical specialties are available at NK Hospital?',
+    a: 'NK Hospital brings together comprehensive care in multiple specialties and sub-specialties such as gastroenterology, orthopedics, urology, nephrology, cardiology, gynecology, general medicine, dental care, and more. This allows patients to access care for a wide range of health concerns under one roof.',
+  },
+  {
+    q: 'How do I choose the right specialty for my symptoms?',
+    a: 'Choosing the right specialty depends on your symptoms, and if you are unsure which specialist to consult, you can start with a General Medicine consultation at NK Hospital, Kalaburagi. A General Medicine specialist can evaluate your symptoms, medical history, and overall health and guide you to the appropriate specialist or department. This helps ensure that you receive the right evaluation and care without having to determine the correct specialty on your own. Book a consultation at NK Hospital to get started with the right medical care.',
+  },
+  {
+    q: 'Which specialty should I consult for stomach and digestive problems?',
+    a: 'For concerns related to digestion, the stomach, or bowel movements, a gastroenterologist is the appropriate specialist to consult. They can assess your symptoms and determine whether further evaluation or treatment is needed.',
+  },
+  {
+    q: 'Which doctor should I consult for bone and joint problems?',
+    a: 'An orthopedic doctor can help you with concerns involving bones, joints, muscles, and movement. Persistent pain, stiffness, swelling, or difficulty moving a joint may require an orthopedic evaluation.',
+  },
+  {
+    q: 'Which specialty treats kidney and urinary problems?',
+    a: 'Kidney and urinary concerns may be managed by either a nephrologist or urologist, depending on the problem. Nephrologists focus mainly on kidney function and medical kidney conditions, while urologists manage the urinary system and related surgical conditions.',
+  },
+  {
+    q: 'Can I consult a specialist directly at NK Hospital?',
+    a: "Yes, you can consult a specialist directly at NK Hospital based on your healthcare needs. You can book an appointment with the relevant specialist or department through the hospital's appointment channels. The hospital team can also help direct you to the relevant department if you are uncertain.",
+  },
+  {
+    q: 'How can I book an appointment with a specialist at NK Hospital?',
+    a: 'You can book an appointment with a specialist at NK Hospital, Kalaburagi by contacting the hospital directly through the available appointment or enquiry channels. When booking, provide your preferred specialty, doctor (if known), and a brief description of your symptoms or healthcare requirement. The hospital team can help you identify the appropriate specialist and provide available appointment timings. For urgent medical concerns, seek immediate medical attention rather than waiting for a routine appointment.',
+  },
+]
+
 export default function Specialities() {
   const { t } = useLanguage()
   const specNames = t('spec_names') || {}
@@ -89,6 +120,30 @@ export default function Specialities() {
                 </div>
               )
             })}
+          </div>
+        </div>
+
+        <div className="mt-20 max-w-[1920px] mx-auto px-4 lg:px-16 2xl:px-24">
+          <div className="bg-white border border-gray-100 rounded-2xl p-6 md:p-10 shadow-sm">
+            <h2 className="text-2xl md:text-3xl font-bold mb-5" style={{ color: '#1a3a6b' }}>{t('spec_page_em_heading')}</h2>
+            <div className="space-y-4 text-sm text-gray-600 leading-relaxed max-w-4xl">
+              <p>{t('spec_page_em_p1')}</p>
+              <p>{t('spec_page_em_p2')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-16 max-w-[1920px] mx-auto px-4 lg:px-16 2xl:px-24">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: '#1a3a6b' }}>{t('spec_page_faq_heading')}</h2>
+            <div className="space-y-4">
+              {specialtiesFaqs.map(({ q, a }, i) => (
+                <div key={i} className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
+                  <h3 className="text-sm font-bold mb-2" style={{ color: '#1a3a6b' }}>Q{i + 1}. {q}</h3>
+                  <p className="text-[13px] text-gray-600 leading-relaxed">{a}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </main>
