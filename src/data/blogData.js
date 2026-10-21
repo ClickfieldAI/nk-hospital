@@ -11,6 +11,59 @@
 
 export const blogPosts = [
   {
+    slug: 'slipped-disc-early-warning-signs',
+    title: 'Slipped Disc: Early Warning Signs, Causes, and Treatment Without Surgery',
+    category: 'Orthopedics',
+    date: 'October 21, 2026',
+    isoDate: '2026-10-21',
+    readTime: '5 min read',
+    img: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=1200&auto=format&fit=crop',
+    excerpt: 'A herniated or slipped disc doesn’t necessarily mean surgery. Learn the early warning signs, causes, and non-surgical treatment options, and when to see a spine specialist.',
+    metaTitle: 'Slipped Disc: Symptoms, Causes & Non-Surgical Treatment',
+    metaDescription: 'Discover the early signs and causes of a slipped disc and explore effective non-surgical treatment options to relieve pain, improve mobility, and support spinal health.',
+    content: [
+      { type: 'p', text: 'Have you noticed back pain that returns whenever you bend, or discomfort that travels from your waist towards your leg? These changes can affect how comfortably you sit, walk, work, and carry out everyday tasks. In some cases, the problem may involve a spinal disc, although similar symptoms can also arise from other conditions.' },
+      { type: 'p', text: "A herniated or slipped disc doesn't necessarily lead to an operation. Most people improve with non-surgical care, and surgery is usually kept for a small number of cases. The next steps depend on the affected area, the symptoms you experience, and whether the surrounding nerves are involved. Knowing these details can help you make better decisions about your spinal health." },
+
+      { type: 'h2', text: 'What Is a Slipped Disc?' },
+      { type: 'p', text: 'The backbone is made up of individual bones with cushioning discs between them. Each disc consists of a soft centre enclosed within a firm outer covering. This arrangement helps the spine tolerate everyday pressure and movement.' },
+      { type: 'p', text: 'A herniated disc, often called a slipped disc, develops when the soft tissue inside a spinal disc protrudes through a weakened or damaged outer covering. The disc may irritate a nearby nerve, producing symptoms beyond the location of the problem itself.' },
+      { type: 'p', text: 'A lower spinal disc issue can lead to pain spreading down the leg, while a disc affected in the neck may cause symptoms in the shoulder, arm, or fingers. Some people, however, have disc changes without experiencing any symptoms.' },
+
+      { type: 'h2', text: 'What Can Contribute to a Slipped Disc?' },
+      { type: 'p', text: 'A slipped disc may develop gradually or become symptomatic after a particular movement. Several factors can contribute:' },
+      { type: 'ul', items: [
+        'Changes within the disc: Over time, spinal discs may become less flexible and more vulnerable to damage.',
+        'Sudden loading: Lifting a heavy object while twisting or bending can place considerable pressure on the spine.',
+        'Repeated physical demands: Certain activities that repeatedly load the back may contribute to spinal stress.',
+        'Individual physical factors: Body weight, conditioning, previous back problems, and other factors may influence spinal health.',
+      ] },
+      { type: 'p', text: "Sometimes, a person develops symptoms without a clear triggering event. Identifying the precise cause requires considering the patient's history and clinical findings." },
+
+      { type: 'h2', text: 'What Early Signs Should You Notice?' },
+      { type: 'p', text: 'The location and pattern of symptoms can offer useful clues about possible disc involvement. Some changes to watch for include:' },
+      { type: 'ul', items: [
+        'Back or neck discomfort that becomes more noticeable during particular movements',
+        'Pain travelling into an arm or leg',
+        'Pins-and-needles sensations or reduced feeling in an affected area',
+        'Difficulty performing movements that previously felt comfortable',
+        'Reduced strength in certain muscles',
+      ] },
+      { type: 'p', text: 'These symptoms alone are not enough to establish that a disc has slipped. A clinical examination is important because several spinal conditions can produce similar symptoms.' },
+
+      { type: 'h2', text: 'Will a Slipped Disc Heal Without Going Through Surgery?' },
+      { type: 'p', text: 'Many slipped disc cases can initially be managed through conservative care. The treatment plan depends on symptom intensity and the extent of nerve involvement.' },
+      { type: 'p', text: 'A treatment plan may involve guided physiotherapy, carefully selected exercises, temporary changes to activities that aggravate symptoms, and medicines prescribed by a healthcare professional. Remaining gently active within comfortable limits may also be encouraged when appropriate.' },
+      { type: 'p', text: "Progress differs between individuals. If the recommended treatment doesn't ease your symptoms, your doctor may take another look at your condition and explore alternative approaches to managing the disc problem. Surgery may be considered in selected cases, particularly when significant nerve problems or persistent disabling symptoms require further intervention." },
+
+      { type: 'h2', text: 'When Should You See a Spine Specialist?' },
+      { type: 'p', text: 'Arrange a medical assessment if back or neck discomfort keeps returning, begins spreading into an arm or leg, or interferes with your usual activities. Persistent numbness or new muscle weakness should also be assessed promptly.' },
+      { type: 'p', text: 'A spine specialist can evaluate your movement, sensation, strength, and reflexes. An MRI may be advised if the clinical findings indicate that detailed imaging would help guide treatment.' },
+      { type: 'p', text: 'Seek immediate medical attention if you suddenly lose control of your bladder or bowel, cannot pass urine normally, develop loss of sensation around the inner thighs or genital area, or experience rapidly increasing weakness in your legs.' },
+      { type: 'p', text: ["Surgery isn't always needed for a herniated disc, yet the warning signs shouldn't be brushed aside. See a ", { text: 'spine specialist', href: '/specialities/orthopedics' }, ' for a proper evaluation that can help pinpoint what\'s behind your pain and recommend appropriate treatment choices tailored to your specific situation.'] },
+    ],
+  },
+  {
     slug: 'kidney-stones-early-warning-signs',
     title: 'Kidney Stones: Early Warning Signs You Shouldn’t Ignore',
     category: 'Urology',

@@ -47,7 +47,7 @@ const DOCTORS = [
   { dept: 'Emergency Department', name: 'Dr. Naveen',               qual: 'MBBS, DEM',                          specialty: 'Emergency Medicine', exp: '', img: null, initials: 'NV', gender: 'male', filled: false },
 
   // ── MICU & Critical Care ─────────────────────────────────────────────────
-  { dept: 'MICU & Critical Care', name: 'Dr. Rehman Hyder', qual: 'MBBS, DA, DNB (Anaesthesia & Critical Care)', specialty: 'Critical Care Medicine', exp: '', img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/v1784901590/1_gprgii.jpg', initials: 'RH', gender: 'male', filled: true  },
+  { dept: 'MICU & Critical Care', name: 'Dr. Rehman Hyder', qual: 'MBBS, DA, DNB (Anaesthesia & Critical Care)', specialty: 'Critical Care Medicine', exp: '16+', img: 'https://res.cloudinary.com/dmhonzqrm/image/upload/v1784901590/1_gprgii.jpg', initials: 'RH', gender: 'male', filled: true  },
   { dept: 'MICU & Critical Care', name: 'Dr. Amarnath',     qual: 'MBBS, MD, DM (Critical Care Medicine)',       specialty: 'Critical Care Medicine', exp: '', img: null,                           initials: 'AM', gender: 'male', filled: false },
 ]
 
