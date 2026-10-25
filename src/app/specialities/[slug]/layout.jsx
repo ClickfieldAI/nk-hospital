@@ -56,6 +56,54 @@ const SPECIALTY_META = {
     title: 'Best Medical Oncologist in Kalaburagi | NK Hospital',
     description: 'NK Hospital offers expert medical oncology care in Kalaburagi with chemotherapy, targeted therapy, and immunotherapy for various types of cancer.',
   },
+  'ent': {
+    label: 'ENT',
+    specialty: 'Otolaryngologic',
+    title: 'Best ENT Hospital in Kalaburagi | NK Hospital',
+    description: 'Consult expert ENT specialists at NK Hospital, Kalaburagi for ear, nose, throat, sinus, hearing, and voice-related problems.',
+  },
+  'neurosurgery': {
+    label: 'Neurosurgery',
+    specialty: 'Neurological',
+    title: 'Best Neurosurgery Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert neurosurgical care in Kalaburagi for brain, spine, and nerve conditions including head injuries and disc problems.',
+  },
+  'psychiatry': {
+    label: 'Psychiatry',
+    specialty: null,
+    title: 'Best Psychiatrist in Kalaburagi | NK Hospital',
+    description: 'Consult experienced psychiatrists at NK Hospital, Kalaburagi for depression, anxiety, stress, sleep problems, and other mental health conditions.',
+  },
+  'vascular-surgery': {
+    label: 'Vascular Surgery',
+    specialty: 'Vascular',
+    title: 'Best Vascular Surgery Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert vascular and endovascular surgery in Kalaburagi for varicose veins, blocked arteries, diabetic foot, and dialysis access.',
+  },
+  'dentistry': {
+    label: 'Dentistry',
+    specialty: 'Dental',
+    title: 'Best Dental Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers comprehensive dental care in Kalaburagi including check-ups, fillings, RCT, implants, and oral surgery.',
+  },
+  'urology': {
+    label: 'Urology',
+    specialty: 'Urologic',
+    title: 'Best Urologist in Kalaburagi | NK Hospital',
+    description: 'Consult expert urologists at NK Hospital, Kalaburagi for kidney stones, prostate problems, urinary infections, and other urological conditions.',
+  },
+  'cardiology': {
+    label: 'Cardiology',
+    specialty: 'Cardiovascular',
+    title: 'Best Cardiology Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert cardiology care in Kalaburagi with ECG, 2D Echo, and an on-site Cath Lab for comprehensive heart care.',
+  },
+  'general-surgery': {
+    label: 'General Surgery',
+    specialty: 'Surgical',
+    title: 'Best General Surgery Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert general surgical care in Kalaburagi for hernias, gallbladder stones, appendicitis, piles, and emergency surgical conditions.',
+  },
 }
 
 const FALLBACK = {
@@ -120,6 +168,54 @@ const SPECIALTY_FAQ_LD = {
     faq('Is chemotherapy given to every cancer patient?', "No. Treatment depends on the type and stage of cancer and the patient's overall condition. The treating oncologist decides whether chemotherapy or another form of treatment is required."),
     faq('What is chemotherapy?', "Chemotherapy involves the use of anti-cancer medicines to target cancer cells, helping to destroy them or slow their growth. The treatment may be used as a standalone approach or combined with other therapies, based on the patient's individual condition and treatment needs."),
     faq('Does cancer treatment cause side effects?', 'Cancer treatment can cause side effects, but they vary depending on the treatment and the individual patient. The medical team monitors patients during treatment and manages side effects when they occur.'),
+  ],
+  'ent': [
+    faq('What does an ENT specialist treat?', 'An ENT specialist treats conditions affecting the ear, nose and throat, including hearing problems, sinus problems, throat infections and other related conditions.'),
+    faq('When should I consult an ENT doctor for hearing problems?', 'If you notice reduced hearing, difficulty understanding speech, ringing in the ears or repeated ear infections, an ENT evaluation can help identify the cause.'),
+    faq('What causes frequent nasal blockage?', 'Nasal blockage can occur due to allergies, sinus problems, a deviated nasal septum, nasal polyps or other conditions. The cause can be identified through an ENT evaluation.'),
+    faq('Is every sinus problem treated with surgery?', 'No. Many sinus problems can be managed with medicines and other treatments. Surgery may be considered in selected cases when required.'),
+  ],
+  'neurosurgery': [
+    faq('What does a neurosurgeon treat?', 'A neurosurgeon deals with conditions affecting the brain, spinal cord and nerves that may require surgical or neurosurgical management.'),
+    faq('Does every brain or spine problem require surgery?', "No. Some conditions can be managed with medicines, observation, physiotherapy or other treatments. An operation may be recommended when the patient's medical condition makes it necessary."),
+    faq('When should a head injury be taken seriously?', 'Loss of consciousness, repeated vomiting, seizures, severe headache, confusion, weakness or unusual sleepiness after a head injury require immediate medical evaluation.'),
+    faq('Can back pain require a neurosurgical consultation?', 'Most back pain does not require surgery. However, persistent pain associated with weakness, numbness, difficulty walking or other neurological symptoms may require further evaluation.'),
+  ],
+  'psychiatry': [
+    faq('What does a psychiatrist treat?', "A psychiatrist diagnoses and treats mental health conditions that affect a person's thoughts, emotions, behaviour and daily functioning."),
+    faq('Does seeing a psychiatrist mean that a person has a serious mental illness?', 'No. People seek psychiatric help for many different reasons, including stress, anxiety, depression, sleep problems, relationship difficulties and other concerns.'),
+    faq('Can depression and anxiety be treated?', "Yes. Treatment may include counselling, therapy, medicines or a combination of these, depending on the person's condition."),
+    faq('When should immediate psychiatric help be sought?', 'Urgent psychiatric care is necessary when someone expresses suicidal or self-injurious thoughts, shows extreme confusion or restlessness, develops sudden behavioural changes, or poses a risk to themselves or others.'),
+  ],
+  'vascular-surgery': [
+    faq('What does a vascular surgeon treat?', 'A vascular surgeon treats diseases affecting blood vessels, mainly arteries and veins.'),
+    faq('Are varicose veins treated only with surgery?', 'No. Treatment depends on the severity. Medicines, lifestyle measures and procedures such as laser treatment may be considered when required.'),
+    faq('What is peripheral arterial disease?', 'It is a condition in which blood flow to the limbs is reduced, usually because of narrowing or blockage of the arteries.'),
+    faq('What symptoms should not be ignored?', 'Sudden severe limb pain, coldness, colour change, loss of sensation or a rapidly worsening wound should be assessed urgently.'),
+  ],
+  'dentistry': [
+    faq('Is dental treatment always painful?', 'Not necessarily. Modern dental care focuses on making procedures as comfortable and reassuring as possible.'),
+    faq('How often should I visit a dentist?', 'Regular check-ups are recommended, with the frequency depending on your oral health needs.'),
+    faq('Is scaling safe?', 'Yes, scaling is a common dental procedure used to remove plaque and calculus.'),
+    faq('When should I consult a dentist?', 'Consult a dentist if you have persistent pain, bleeding gums, swelling, or any dental concern.'),
+  ],
+  'urology': [
+    faq('What does a urologist treat?', 'A urologist treats conditions affecting the kidneys, ureters, urinary bladder, urethra and the male reproductive system.'),
+    faq('What are symptoms that indicate kidney stones?', 'Kidney stones may cause pain in the side or back, pain while passing urine, blood in urine, nausea or vomiting. Some stones may not cause symptoms until they move or block the urinary tract.'),
+    faq('Does every kidney stone require surgery?', "No. Treatment is individualized according to the stone size, position, and the patient's overall clinical condition. Some stones may pass naturally or be managed with medicines, while others may require a procedure."),
+    faq('How can kidney stones be prevented?', 'Maintaining adequate hydration, following suitable dietary practices, and addressing factors that contribute to stone formation may help lower the likelihood of future stones.'),
+  ],
+  'cardiology': [
+    faq('What are the common signs of heart problems?', 'Chest pain, breathlessness, palpitations, dizziness, fainting and unusual tiredness can be symptoms of a heart problem. The symptoms may vary depending on the individual and the underlying cause.'),
+    faq('What is a 2D Echo?', '2D Echocardiography is an ultrasound test that visualizes the heart and assesses its functioning. It helps the doctor check the heart chambers, valves and pumping function.'),
+    faq('Does the hospital have a Cath Lab?', 'Yes. The hospital has a Cath Lab within the premises. Patients requiring cardiac procedures can be evaluated and managed by the concerned cardiac team.'),
+    faq('Is every chest pain caused by a heart problem?', 'No. Chest pain can occur due to different reasons. However, chest pain should be properly evaluated, especially when there is a possibility of a cardiac problem.'),
+  ],
+  'general-surgery': [
+    faq('What does a general surgeon treat?', 'A general surgeon treats a variety of conditions that may require surgical management, including hernias, appendicitis, gallbladder diseases, piles, breast lumps, thyroid swellings and soft tissue swellings.'),
+    faq('Does every surgical condition require an operation?', "No. Some conditions can be treated with medicines and observation. Surgery is advised only when it is considered necessary based on the patient's condition."),
+    faq('What is a hernia?', 'A hernia develops when an organ or tissue pushes through a weak area of the muscle or connective tissue that normally supports it. It may present as a noticeable bulge, commonly in the abdomen or groin.'),
+    faq('Can a general surgeon treat emergency conditions?', 'Yes. General surgeons commonly manage emergency conditions such as appendicitis, intestinal obstruction, abscesses, traumatic injuries and other urgent surgical problems.'),
   ],
 }
 
