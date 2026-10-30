@@ -104,6 +104,48 @@ const SPECIALTY_META = {
     title: 'Best General Surgery Hospital in Kalaburagi | NK Hospital',
     description: 'NK Hospital offers expert general surgical care in Kalaburagi for hernias, gallbladder stones, appendicitis, piles, and emergency surgical conditions.',
   },
+  'plastic-surgery': {
+    label: 'Plastic Surgery',
+    specialty: 'Plastic Surgery',
+    title: 'Best Plastic Surgery Hospital in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert plastic and reconstructive surgery in Kalaburagi for burns, wounds, scars, and soft tissue injuries.',
+  },
+  'rheumatology': {
+    label: 'Rheumatology',
+    specialty: 'Rheumatologic',
+    title: 'Best Rheumatologist in Kalaburagi | NK Hospital',
+    description: 'Consult expert rheumatologists at NK Hospital, Kalaburagi for rheumatoid arthritis, gout, lupus, and other autoimmune and joint conditions.',
+  },
+  'surgical-oncology': {
+    label: 'Surgical Oncology',
+    specialty: 'Oncologic',
+    title: 'Best Surgical Oncologist in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers expert surgical oncology care in Kalaburagi for breast, GI, thyroid, and other solid tumour surgeries.',
+  },
+  'emergency-medicine': {
+    label: 'Emergency Medicine',
+    specialty: 'Emergency',
+    title: '24/7 Emergency Care in Kalaburagi | NK Hospital',
+    description: 'NK Hospital provides round-the-clock emergency medicine care in Kalaburagi for trauma, cardiac, respiratory, and other urgent medical conditions.',
+  },
+  'nephrology': {
+    label: 'Nephrology',
+    specialty: 'Nephrologic',
+    title: 'Best Nephrologist in Kalaburagi | NK Hospital',
+    description: 'Consult expert nephrologists at NK Hospital, Kalaburagi for chronic kidney disease, dialysis, and other kidney-related conditions.',
+  },
+  'neurology': {
+    label: 'Neurology',
+    specialty: 'Neurological',
+    title: 'Best Neurologist in Kalaburagi | NK Hospital',
+    description: 'Consult expert neurologists at NK Hospital, Kalaburagi for stroke, epilepsy, migraine, Parkinson’s disease, and other neurological conditions.',
+  },
+  'pediatrics': {
+    label: 'Pediatrics',
+    specialty: 'Pediatric',
+    title: 'Best Pediatrician in Kalaburagi | NK Hospital',
+    description: 'NK Hospital offers comprehensive pediatric care in Kalaburagi for infants, children, and teenagers, including growth, vaccination, and illness care.',
+  },
 }
 
 const FALLBACK = {
@@ -216,6 +258,47 @@ const SPECIALTY_FAQ_LD = {
     faq('Does every surgical condition require an operation?', "No. Some conditions can be treated with medicines and observation. Surgery is advised only when it is considered necessary based on the patient's condition."),
     faq('What is a hernia?', 'A hernia develops when an organ or tissue pushes through a weak area of the muscle or connective tissue that normally supports it. It may present as a noticeable bulge, commonly in the abdomen or groin.'),
     faq('Can a general surgeon treat emergency conditions?', 'Yes. General surgeons commonly manage emergency conditions such as appendicitis, intestinal obstruction, abscesses, traumatic injuries and other urgent surgical problems.'),
+  ],
+  'plastic-surgery': [
+    faq('What does a plastic surgeon treat?', 'A plastic surgeon treats conditions involving the skin and soft tissues and performs reconstructive procedures when tissue has been damaged or lost.'),
+    faq('Does plastic surgery serve purposes beyond improving appearance?', 'No. Plastic surgery also includes reconstructive surgery, which helps restore the function or appearance of an area affected by injury, burns, disease or previous surgery.'),
+    faq('What is reconstructive surgery?', 'Reconstructive surgery is performed to repair or restore an area of the body that has been damaged because of injury, burns, disease or surgery.'),
+    faq('What is a skin graft?', 'A skin graft is a piece of healthy skin taken from one area of the body and placed over an area where skin has been lost or damaged. It may be used for certain wounds and burns.'),
+  ],
+  'rheumatology': [
+    faq('What does a rheumatologist treat?', 'A rheumatologist treats diseases affecting the joints, muscles and connective tissues, as well as several autoimmune and inflammatory conditions.'),
+    faq('What are common symptoms of rheumatoid arthritis?', 'Joint aches, puffiness and limited flexibility are frequently reported symptoms. The hands, feet and wrists are often affected, and stiffness may be more noticeable in the morning.'),
+    faq('What is gout?', 'Gout is a type of inflammatory arthritis that can cause sudden, severe pain, swelling and tenderness in a joint. The big toe is commonly affected, although other joints can also be involved.'),
+    faq('What is an autoimmune disease?', "An autoimmune disorder develops when the immune system wrongly targets the body's healthy tissues. Rheumatoid arthritis and lupus are two examples of these disorders."),
+  ],
+  'surgical-oncology': [
+    faq('What does a surgical oncologist do?', "A surgical oncologist has specialized expertise in managing cancer through surgery. They assess whether surgery is required and plan the appropriate surgical treatment based on the patient's condition."),
+    faq('Does every cancer patient require surgery?', 'No. Surgery is not required for every cancer patient. Treatment depends on the type, stage and location of the cancer and may include surgery, medicines, radiation or a combination of treatments.'),
+    faq('Can cancer surgery be used alongside other treatment methods?', 'Yes. Depending on the type and stage of cancer, surgery may be combined with chemotherapy, radiation therapy, targeted therapy or other treatments.'),
+  ],
+  'emergency-medicine': [
+    faq('What is Emergency Medicine?', 'Emergency Medicine deals with the immediate assessment and treatment of sudden illnesses, injuries and other urgent medical conditions.'),
+    faq('Do emergency patients get treated on a first-come, first-served basis?', 'Not always. Patients are assessed according to the seriousness of their condition. Life-threatening cases are given priority.'),
+    faq('What is triage?', 'Triage is the process of quickly assessing patients and deciding how urgently they need medical attention.'),
+    faq('When does chest pain require immediate emergency medical attention?', 'Sudden or severe chest pain, especially when associated with sweating, breathing difficulty, nausea or pain spreading to the arm or jaw, needs urgent medical assessment.'),
+  ],
+  'nephrology': [
+    faq('What does a nephrologist treat?', 'A nephrologist specializes in kidney disorders and conditions that interfere with normal kidney function, including chronic kidney disease, sudden kidney injury, and diabetes-associated kidney damage.'),
+    faq('What symptoms may indicate kidney disease?', 'Kidney disorders may cause swelling in the face or feet, altered urination, lower urine volume, blood or protein in urine, fatigue and elevated blood pressure.'),
+    faq('What is dialysis?', 'Dialysis helps clear waste products and extra fluid from the body when the kidneys can no longer perform these functions adequately. Haemodialysis is a widely used type of dialysis treatment.'),
+    faq('Does every kidney patient require dialysis?', "No. Dialysis is required only in certain patients depending on the severity of kidney failure and the patient's clinical condition."),
+  ],
+  'neurology': [
+    faq('What does a neurologist treat?', 'A neurologist diagnoses and manages conditions involving the brain, spinal cord, nerves, and muscles.'),
+    faq('What is a stroke?', 'A stroke occurs when the blood supply to part of the brain is interrupted or when there is bleeding in the brain. It requires immediate medical attention.'),
+    faq('Which diagnostic tests might a neurologist suggest?', "Based on the patient's symptoms, the specialist may recommend MRI, CT scans, EEG, nerve conduction tests, blood tests, or additional diagnostic investigations."),
+    faq('Can neurological conditions be treated?', 'Many neurological conditions can be managed with medicines, rehabilitation, lifestyle changes and other treatments. Treatment depends on the specific condition.'),
+  ],
+  'pediatrics': [
+    faq('What does a pediatrician treat?', 'A pediatrician provides medical care for infants, children and adolescents and treats a wide range of childhood illnesses and health problems.'),
+    faq('How important are vaccinations for children?', 'Vaccination helps protect children against several serious and preventable infections. Parents should follow the vaccination schedule advised by their pediatrician.'),
+    faq('Does every childhood illness require antibiotics?', 'No. Many childhood infections are caused by viruses and do not require antibiotics. Antibiotics should be given only when advised by a doctor.'),
+    faq("When should parents be concerned about a child's development?", 'If a child is not reaching expected developmental milestones, has difficulty with speech or movement, or shows a noticeable change in behaviour or development, parents should discuss it with a pediatrician.'),
   ],
 }
 
