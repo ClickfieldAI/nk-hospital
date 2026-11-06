@@ -11,6 +11,83 @@
 
 export const blogPosts = [
   {
+    slug: 'arthritis-vs-joint-pain-difference',
+    title: 'Arthritis vs Joint Pain – What’s the Difference?',
+    category: 'Orthopedics',
+    date: 'November 6, 2026',
+    isoDate: '2026-11-06',
+    readTime: '4 min read',
+    img: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop',
+    excerpt: 'Joint pain and arthritis are not the same thing. Learn the difference, common causes of joint pain, signs of arthritis, and when to see an orthopedic doctor.',
+    metaTitle: 'Arthritis vs Joint Pain – What’s the Difference?',
+    metaDescription: 'Learn the difference between arthritis and joint pain, common causes, symptoms, and when persistent pain should be evaluated by an orthopedic doctor.',
+    content: [
+      { type: 'p', text: 'Do you have knee pain, shoulder pain, or stiffness in your joints? You may wonder, "Do I have arthritis?" The answer is: not necessarily.' },
+      { type: 'p', text: 'Joint pain is a symptom. Arthritis is one of the conditions that can cause joint pain.' },
+
+      { type: 'h2', text: 'What Is Joint Pain?' },
+      { type: 'p', text: 'Joint pain simply means pain or discomfort in or around a joint. It can happen in your knees, shoulders, hips, ankles, wrists, or elbows.' },
+      { type: 'p', text: 'The pain may be mild and temporary, or it may continue for a longer time. Sometimes pain gets better with rest. But if it keeps coming back or does not go away, it is better to get it checked.' },
+
+      { type: 'h2', text: 'Why Does Joint Pain Happen?' },
+      { type: 'p', text: 'There are many reasons for joint pain. Arthritis is only one of them.' },
+      { type: 'ul', items: [
+        'Injury: A fall, twist, or sports injury can cause pain.',
+        'Overuse: Too much exercise or repeated use of a joint can cause pain.',
+        'Inflammation: Swelling or irritation around a joint can cause pain and tenderness.',
+        'Tendon or ligament problems: Problems with the tissues around a joint can also cause pain.',
+        'Age-related changes: As we get older, changes in our joints can sometimes cause pain and stiffness.',
+      ] },
+      { type: 'p', text: 'So, joint pain does not automatically mean you have arthritis.' },
+
+      { type: 'h2', text: 'What Is Arthritis?' },
+      { type: 'p', text: 'Arthritis is a group of conditions that affect the joints. It can cause pain, stiffness, swelling, tenderness, and difficulty moving the joint.' },
+      { type: 'p', text: 'There are different types of arthritis. Osteoarthritis and rheumatoid arthritis are two common types.' },
+
+      { type: 'h2', text: 'What Are the Signs of Arthritis?' },
+      { type: 'ul', items: [
+        'Pain in the joint',
+        'Stiffness, especially after sitting or resting',
+        'Swelling',
+        'Difficulty moving the joint',
+        'Less flexibility',
+        'Pain or stiffness that keeps coming back',
+      ] },
+
+      { type: 'h2', text: 'So, What Is the Difference?' },
+      { type: 'p', text: 'Joint pain = a symptom. Arthritis = a condition that can cause joint pain.' },
+      { type: 'p', text: 'For example, your knee may hurt because of an injury, overuse, or a joint condition such as arthritis. Not every painful joint has arthritis.' },
+
+      { type: 'h2', text: 'When Should You See an Orthopedic Doctor?' },
+      { type: 'p', text: 'It is good to consult an orthopedic doctor if:' },
+      { type: 'ul', items: [
+        'Pain keeps coming back',
+        'Your pain does not improve',
+        'Joint is swollen',
+        'Joint feels very stiff',
+        'You have difficulty moving the joint',
+        'Pain is affecting your daily activities like walking, work, or exercise',
+      ] },
+      { type: 'p', text: ['Your ', { text: 'doctor', href: '/specialities/orthopedics' }, ' can examine the joint and find out what may be causing the pain. Tests or X-rays may be advised if needed.'] },
+
+      { type: 'h2', text: 'How Can Joint Problems Be Managed?' },
+      { type: 'p', text: 'Treatment depends largely on what is causing the symptoms. There is no single approach that works for every type of joint problem. Depending on the diagnosis, management may include:' },
+      { type: 'ul', items: [
+        'Exercises',
+        'Physiotherapy',
+        'Changing or reducing certain activities',
+        'Medicines when needed',
+        'Weight management',
+        'Other treatments depending on the problem',
+      ] },
+      { type: 'p', text: 'In some cases, additional medical or surgical treatment may be considered.' },
+
+      { type: 'h2', text: 'Remember' },
+      { type: 'p', text: 'Joint pain does not always mean arthritis. There can be many reasons for joint pain. If your pain continues, keeps coming back, or affects your daily life, do not ignore it. Finding the cause early can help you get the right treatment and keep your joints moving comfortably.' },
+      { type: 'p', text: "Take care of your joints. Keep moving. Don't ignore persistent pain." },
+    ],
+  },
+  {
     slug: 'pcos-hormonal-factors-treatment',
     title: "PCOS in Women: Hormonal Factors, Common Challenges, and Treatment Approaches",
     category: 'Gynecology',
