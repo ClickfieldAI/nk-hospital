@@ -17,7 +17,7 @@ export const blogPosts = [
     date: 'November 6, 2026',
     isoDate: '2026-11-06',
     readTime: '4 min read',
-    img: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop',
+    img: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1200&auto=format&fit=crop',
     excerpt: 'Joint pain and arthritis are not the same thing. Learn the difference, common causes of joint pain, signs of arthritis, and when to see an orthopedic doctor.',
     metaTitle: 'Arthritis vs Joint Pain – What’s the Difference?',
     metaDescription: 'Learn the difference between arthritis and joint pain, common causes, symptoms, and when persistent pain should be evaluated by an orthopedic doctor.',
